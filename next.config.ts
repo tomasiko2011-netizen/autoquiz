@@ -2,6 +2,9 @@ import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
   /* config options here */
+  basePath: '/geoquiz',
+  assetPrefix: '/geoquiz',
+  trailingSlash: true,
   output: 'standalone',
   typescript: {
     ignoreBuildErrors: true,
