@@ -1,304 +1,214 @@
 {
   "placeholderImages": [
     {
-      "id": "ru",
-      "description": "Flag of Russia",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
-      "imageHint": "flag Russia"
+      "id": "toyota",
+      "description": "Logo of Toyota",
+      "imageUrl": "/logos/toyota.svg",
+      "imageHint": "car brand logo Toyota"
     },
     {
-      "id": "us",
-      "description": "Flag of USA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
-      "imageHint": "flag USA"
+      "id": "honda",
+      "description": "Logo of Honda",
+      "imageUrl": "/logos/honda.svg",
+      "imageHint": "car brand logo Honda"
     },
     {
-      "id": "gb",
-      "description": "Flag of Great Britain",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg",
-      "imageHint": "flag Britain"
+      "id": "nissan",
+      "description": "Logo of Nissan",
+      "imageUrl": "/logos/nissan.svg",
+      "imageHint": "car brand logo Nissan"
     },
     {
-      "id": "fr",
-      "description": "Flag of France",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg",
-      "imageHint": "flag France"
+      "id": "mazda",
+      "description": "Logo of Mazda",
+      "imageUrl": "/logos/mazda.svg",
+      "imageHint": "car brand logo Mazda"
     },
     {
-      "id": "de",
-      "description": "Flag of Germany",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg",
-      "imageHint": "flag Germany"
+      "id": "subaru",
+      "description": "Logo of Subaru",
+      "imageUrl": "/logos/subaru.svg",
+      "imageHint": "car brand logo Subaru"
     },
     {
-      "id": "it",
-      "description": "Flag of Italy",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg",
-      "imageHint": "flag Italy"
+      "id": "mitsubishi",
+      "description": "Logo of Mitsubishi",
+      "imageUrl": "/logos/mitsubishi.svg",
+      "imageHint": "car brand logo Mitsubishi"
     },
     {
-      "id": "jp",
-      "description": "Flag of Japan",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg",
-      "imageHint": "flag Japan"
+      "id": "suzuki",
+      "description": "Logo of Suzuki",
+      "imageUrl": "/logos/suzuki.svg",
+      "imageHint": "car brand logo Suzuki"
     },
     {
-      "id": "cn",
-      "description": "Flag of China",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg",
-      "imageHint": "flag China"
+      "id": "lexus",
+      "description": "Logo of Lexus",
+      "imageUrl": "/logos/lexus.svg",
+      "imageHint": "car brand logo Lexus"
     },
     {
-      "id": "in",
-      "description": "Flag of India",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
-      "imageHint": "flag India"
+      "id": "bmw",
+      "description": "Logo of BMW",
+      "imageUrl": "/logos/bmw.svg",
+      "imageHint": "car brand logo BMW"
     },
     {
-      "id": "br",
-      "description": "Flag of Brazil",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg",
-      "imageHint": "flag Brazil"
+      "id": "mercedes",
+      "description": "Logo of Mercedes-Benz",
+      "imageUrl": "/logos/mercedes.svg",
+      "imageHint": "car brand logo Mercedes-Benz"
     },
     {
-      "id": "ca",
-      "description": "Flag of Canada",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/cf/Flag_of_Canada.svg",
-      "imageHint": "flag Canada"
+      "id": "audi",
+      "description": "Logo of Audi",
+      "imageUrl": "/logos/audi.svg",
+      "imageHint": "car brand logo Audi"
     },
     {
-      "id": "au",
-      "description": "Flag of Australia",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b9/Flag_of_Australia.svg",
-      "imageHint": "flag Australia"
+      "id": "volkswagen",
+      "description": "Logo of Volkswagen",
+      "imageUrl": "/logos/volkswagen.svg",
+      "imageHint": "car brand logo Volkswagen"
     },
     {
-      "id": "es",
-      "description": "Flag of Spain",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg",
-      "imageHint": "flag Spain"
+      "id": "porsche",
+      "description": "Logo of Porsche",
+      "imageUrl": "/logos/porsche.svg",
+      "imageHint": "car brand logo Porsche"
     },
     {
-      "id": "mx",
-      "description": "Flag of Mexico",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg",
-      "imageHint": "flag Mexico"
+      "id": "opel",
+      "description": "Logo of Opel",
+      "imageUrl": "/logos/opel.svg",
+      "imageHint": "car brand logo Opel"
     },
     {
-      "id": "ar",
-      "description": "Flag of Argentina",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
-      "imageHint": "flag Argentina"
+      "id": "ford",
+      "description": "Logo of Ford",
+      "imageUrl": "/logos/ford.svg",
+      "imageHint": "car brand logo Ford"
     },
     {
-      "id": "eg",
-      "description": "Flag of Egypt",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg",
-      "imageHint": "flag Egypt"
+      "id": "chevrolet",
+      "description": "Logo of Chevrolet",
+      "imageUrl": "/logos/chevrolet.svg",
+      "imageHint": "car brand logo Chevrolet"
     },
     {
-      "id": "za",
-      "description": "Flag of South Africa",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg",
-      "imageHint": "flag South Africa"
+      "id": "tesla",
+      "description": "Logo of Tesla",
+      "imageUrl": "/logos/tesla.svg",
+      "imageHint": "car brand logo Tesla"
     },
     {
-      "id": "ng",
-      "description": "Flag of Nigeria",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Nigeria.svg",
-      "imageHint": "flag Nigeria"
+      "id": "jeep",
+      "description": "Logo of Jeep",
+      "imageUrl": "/logos/jeep.svg",
+      "imageHint": "car brand logo Jeep"
     },
     {
-      "id": "kr",
-      "description": "Flag of South Korea",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
-      "imageHint": "flag South Korea"
+      "id": "dodge",
+      "description": "Logo of Dodge",
+      "imageUrl": "/logos/dodge.svg",
+      "imageHint": "car brand logo Dodge"
     },
     {
-      "id": "tr",
-      "description": "Flag of Turkey",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
-      "imageHint": "flag Turkey"
+      "id": "cadillac",
+      "description": "Logo of Cadillac",
+      "imageUrl": "/logos/cadillac.svg",
+      "imageHint": "car brand logo Cadillac"
     },
     {
-      "id": "sa",
-      "description": "Flag of Saudi Arabia",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg",
-      "imageHint": "flag Saudi Arabia"
+      "id": "hyundai",
+      "description": "Logo of Hyundai",
+      "imageUrl": "/logos/hyundai.svg",
+      "imageHint": "car brand logo Hyundai"
     },
     {
-      "id": "id",
-      "description": "Flag of Indonesia",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg",
-      "imageHint": "flag Indonesia"
+      "id": "kia",
+      "description": "Logo of Kia",
+      "imageUrl": "/logos/kia.svg",
+      "imageHint": "car brand logo Kia"
     },
     {
-      "id": "pk",
-      "description": "Flag of Pakistan",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg",
-      "imageHint": "flag Pakistan"
+      "id": "volvo",
+      "description": "Logo of Volvo",
+      "imageUrl": "/logos/volvo.svg",
+      "imageHint": "car brand logo Volvo"
     },
     {
-      "id": "bd",
-      "description": "Flag of Bangladesh",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg",
-      "imageHint": "flag Bangladesh"
+      "id": "peugeot",
+      "description": "Logo of Peugeot",
+      "imageUrl": "/logos/peugeot.svg",
+      "imageHint": "car brand logo Peugeot"
     },
     {
-      "id": "vn",
-      "description": "Flag of Vietnam",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg",
-      "imageHint": "flag Vietnam"
+      "id": "renault",
+      "description": "Logo of Renault",
+      "imageUrl": "/logos/renault.svg",
+      "imageHint": "car brand logo Renault"
     },
     {
-      "id": "ph",
-      "description": "Flag of Philippines",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg",
-      "imageHint": "flag Philippines"
+      "id": "citroen",
+      "description": "Logo of Citroen",
+      "imageUrl": "/logos/citroen.svg",
+      "imageHint": "car brand logo Citroen"
     },
     {
-      "id": "th",
-      "description": "Flag of Thailand",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
-      "imageHint": "flag Thailand"
+      "id": "fiat",
+      "description": "Logo of Fiat",
+      "imageUrl": "/logos/fiat.svg",
+      "imageHint": "car brand logo Fiat"
     },
     {
-      "id": "ir",
-      "description": "Flag of Iran",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
-      "imageHint": "flag Iran"
+      "id": "ferrari",
+      "description": "Logo of Ferrari",
+      "imageUrl": "/logos/ferrari.svg",
+      "imageHint": "car brand logo Ferrari"
     },
     {
-      "id": "iq",
-      "description": "Flag of Iraq",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Iraq.svg",
-      "imageHint": "flag Iraq"
+      "id": "lamborghini",
+      "description": "Logo of Lamborghini",
+      "imageUrl": "/logos/lamborghini.svg",
+      "imageHint": "car brand logo Lamborghini"
     },
     {
-      "id": "pl",
-      "description": "Flag of Poland",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg",
-      "imageHint": "flag Poland"
+      "id": "alfaromeo",
+      "description": "Logo of Alfa Romeo",
+      "imageUrl": "/logos/alfaromeo.svg",
+      "imageHint": "car brand logo Alfa Romeo"
     },
     {
-      "id": "ua",
-      "description": "Flag of Ukraine",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
-      "imageHint": "flag Ukraine"
+      "id": "skoda",
+      "description": "Logo of Skoda",
+      "imageUrl": "/logos/skoda.svg",
+      "imageHint": "car brand logo Skoda"
     },
     {
-      "id": "nl",
-      "description": "Flag of Netherlands",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
-      "imageHint": "flag Netherlands"
+      "id": "seat",
+      "description": "Logo of SEAT",
+      "imageUrl": "/logos/seat.svg",
+      "imageHint": "car brand logo SEAT"
     },
     {
-      "id": "be",
-      "description": "Flag of Belgium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg",
-      "imageHint": "flag Belgium"
+      "id": "jaguar",
+      "description": "Logo of Jaguar",
+      "imageUrl": "/logos/jaguar.svg",
+      "imageHint": "car brand logo Jaguar"
     },
     {
-      "id": "se",
-      "description": "Flag of Sweden",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg",
-      "imageHint": "flag Sweden"
+      "id": "landrover",
+      "description": "Logo of Land Rover",
+      "imageUrl": "/logos/landrover.svg",
+      "imageHint": "car brand logo Land Rover"
     },
     {
-      "id": "no",
-      "description": "Flag of Norway",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
-      "imageHint": "flag Norway"
-    },
-    {
-      "id": "dk",
-      "description": "Flag of Denmark",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg",
-      "imageHint": "flag Denmark"
-    },
-    {
-      "id": "fi",
-      "description": "Flag of Finland",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg",
-      "imageHint": "flag Finland"
-    },
-    {
-      "id": "ch",
-      "description": "Flag of Switzerland",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Switzerland.svg",
-      "imageHint": "flag Switzerland"
-    },
-    {
-      "id": "at",
-      "description": "Flag of Austria",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg",
-      "imageHint": "flag Austria"
-    },
-    {
-      "id": "gr",
-      "description": "Flag of Greece",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg",
-      "imageHint": "flag Greece"
-    },
-    {
-      "id": "pt",
-      "description": "Flag of Portugal",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg",
-      "imageHint": "flag Portugal"
-    },
-    {
-      "id": "ie",
-      "description": "Flag of Ireland",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Ireland.svg",
-      "imageHint": "flag Ireland"
-    },
-    {
-      "id": "nz",
-      "description": "Flag of New Zealand",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
-      "imageHint": "flag New Zealand"
-    },
-    {
-      "id": "sg",
-      "description": "Flag of Singapore",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg",
-      "imageHint": "flag Singapore"
-    },
-    {
-      "id": "my",
-      "description": "Flag of Malaysia",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg",
-      "imageHint": "flag Malaysia"
-    },
-    {
-      "id": "cl",
-      "description": "Flag of Chile",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg",
-      "imageHint": "flag Chile"
-    },
-    {
-      "id": "co",
-      "description": "Flag of Colombia",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg",
-      "imageHint": "flag Colombia"
-    },
-    {
-      "id": "pe",
-      "description": "Flag of Peru",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Peru.svg",
-      "imageHint": "flag Peru"
-    },
-    {
-      "id": "ve",
-      "description": "Flag of Venezuela",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Venezuela.svg",
-      "imageHint": "flag Venezuela"
-    },
-    {
-      "id": "kz",
-      "description": "Flag of Kazakhstan",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg",
-      "imageHint": "flag Kazakhstan"
+      "id": "mini",
+      "description": "Logo of MINI",
+      "imageUrl": "/logos/mini.svg",
+      "imageHint": "car brand logo MINI"
     }
   ]
 }

@@ -3,9 +3,9 @@ import { Toaster } from '@/components/ui/toaster';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'GeoWhiz: Викторина по странам мира',
+  title: 'AutoQuiz: Викторина по маркам авто',
   description:
-    'Интерактивная обучающая игра для изучения стран, их флагов и столиц.',
+    'Интерактивная игра для изучения марок автомобилей и стран их происхождения.',
 };
 
 export default function RootLayout({

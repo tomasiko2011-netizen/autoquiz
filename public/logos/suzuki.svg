@@ -1,0 +1,16 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='480' viewBox='0 0 800 480'>
+  <defs>
+    <linearGradient id='g' x1='0' x2='1' y1='0' y2='1'>
+      <stop offset='0%' stop-color='#111827' />
+      <stop offset='100%' stop-color='#0b0f16' />
+    </linearGradient>
+  </defs>
+  <rect x='20' y='20' rx='32' ry='32' width='760' height='440' fill='url(#g)' stroke='#334155' stroke-width='6'/>
+  <rect x='60' y='60' rx='24' ry='24' width='680' height='360' fill='rgba(255,255,255,0.02)' stroke='rgba(255,255,255,0.08)' stroke-width='2'/>
+  <text x='400' y='235' text-anchor='middle' font-family='Arial, Helvetica, sans-serif' font-size='64' fill='#38bdf8' font-weight='700'>
+    Suzuki
+  </text>
+  <text x='400' y='300' text-anchor='middle' font-family='Arial, Helvetica, sans-serif' font-size='22' fill='rgba(255,255,255,0.65)'>
+    autoquiz
+  </text>
+</svg>

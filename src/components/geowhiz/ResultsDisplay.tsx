@@ -61,8 +61,8 @@ const renderCustomizedLabel = ({
 
 type Result = {
   name: string;
-  countries: number;
-  capitals: number;
+  brands: number;
+  origins: number;
   total: number;
   date: string;
 };
@@ -77,15 +77,15 @@ export default function ResultsDisplay() {
 
   useEffect(() => {
     setIsClient(true);
-    const pastResults = JSON.parse(localStorage.getItem('geoWhizResults') || '[]');
+    const pastResults = JSON.parse(localStorage.getItem('autoQuizResults') || '[]');
     setResultsHistory(pastResults);
     
     // Проигрываем звук "Тадам" при загрузке результатов
     playSound('completion');
   }, [playSound]);
 
-  const countriesScore = parseInt(searchParams.get('countries') || '0', 10);
-  const capitalsScore = parseInt(searchParams.get('capitals') || '0', 10);
+  const brandsScore = parseInt(searchParams.get('brands') || '0', 10);
+  const originsScore = parseInt(searchParams.get('origins') || '0', 10);
   const totalQuestions = parseInt(searchParams.get('total') || '0', 10);
 
   useEffect(() => {
@@ -96,7 +96,7 @@ export default function ResultsDisplay() {
   
   const leaderboard = useMemo(() => {
     return [...resultsHistory]
-      .sort((a, b) => (b.countries + b.capitals) - (a.countries + a.capitals) || new Date(b.date).getTime() - new Date(a.date).getTime())
+      .sort((a, b) => (b.brands + b.origins) - (a.brands + a.origins) || new Date(b.date).getTime() - new Date(a.date).getTime())
       .slice(0, 10);
   }, [resultsHistory]);
 
@@ -105,7 +105,7 @@ export default function ResultsDisplay() {
   }
 
   const totalPossibleScore = totalQuestions * 2;
-  const totalCorrect = countriesScore + capitalsScore;
+  const totalCorrect = brandsScore + originsScore;
   const percentage =
     totalPossibleScore > 0
       ? ((totalCorrect / totalPossibleScore) * 100).toFixed(1)
@@ -156,12 +156,12 @@ export default function ResultsDisplay() {
 
           <div className="text-left space-y-2 text-lg">
             <p>
-              <span className="font-bold">Правильных ответов (страны):</span>{' '}
-              {countriesScore} из {totalQuestions}
+              <span className="font-bold">Правильных ответов (бренды):</span>{' '}
+              {brandsScore} из {totalQuestions}
             </p>
             <p>
-              <span className="font-bold">Правильных ответов (столицы):</span>{' '}
-              {capitalsScore} из {totalQuestions}
+              <span className="font-bold">Правильных ответов (страны):</span>{' '}
+              {originsScore} из {totalQuestions}
             </p>
             <p className="font-bold text-xl pt-2">
               <span className="font-headline">Общий процент:</span> {percentage}%
@@ -195,7 +195,7 @@ export default function ResultsDisplay() {
                   <TableRow key={index}>
                     <TableCell className="font-medium">{index + 1}</TableCell>
                     <TableCell>{r.name}</TableCell>
-                    <TableCell className="text-right">{r.countries + r.capitals} / {r.total * 2}</TableCell>
+                    <TableCell className="text-right">{r.brands + r.origins} / {r.total * 2}</TableCell>
                     <TableCell className="text-right">{new Date(r.date).toLocaleDateString()}</TableCell>
                   </TableRow>
                 ))}

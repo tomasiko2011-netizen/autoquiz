@@ -13,7 +13,7 @@ import {
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { Globe, Volume2, VolumeX } from 'lucide-react';
+import { Car, Volume2, VolumeX } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { useSounds } from '@/hooks/use-sounds';
 
@@ -32,7 +32,7 @@ export default function Home() {
       });
       return;
     }
-    localStorage.setItem('geoWhizPlayerName', name);
+    localStorage.setItem('autoQuizPlayerName', name);
     router.push('/quiz');
   };
 
@@ -42,18 +42,18 @@ export default function Home() {
       <Card className="w-full max-w-md text-center shadow-2xl z-10 animate-fade-in-up">
         <CardHeader>
           <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 mb-4">
-            <Globe className="h-8 w-8 text-primary" />
+            <Car className="h-8 w-8 text-primary" />
           </div>
           <CardTitle className="font-headline text-4xl text-primary">
-            GeoWhiz
+            AutoQuiz
           </CardTitle>
           <CardDescription className="text-lg pt-2">
-            Изучайте страны, флаги и столицы мира в увлекательной викторине!
+            Узнайте марки автомобилей и страны их происхождения.
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4 text-left">
           <p className="text-muted-foreground text-center">
-            Проверьте свои знания и станьте экспертом в географии.
+            Проверьте себя на знание авто‑брендов и их родины.
           </p>
           <div className="space-y-2">
             <Label htmlFor="name" className="text-base">
@@ -98,7 +98,7 @@ export default function Home() {
         </CardContent>
         <CardFooter className="flex justify-center">
           <Button onClick={handleStart} size="lg" className="font-headline text-lg">
-            Начать обучение
+            Начать игру
           </Button>
         </CardFooter>
       </Card>

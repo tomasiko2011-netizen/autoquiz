@@ -7,7 +7,7 @@ export function useSounds() {
   const [isSoundEnabled, setIsSoundEnabled] = useState(() => {
     // Читаем из localStorage при инициализации
     if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('geoWhizSoundEnabled');
+      const saved = localStorage.getItem('autoQuizSoundEnabled');
       return saved !== null ? JSON.parse(saved) : true;
     }
     return true;
@@ -15,7 +15,7 @@ export function useSounds() {
 
   // Сохраняем в localStorage при изменении
   useEffect(() => {
-    localStorage.setItem('geoWhizSoundEnabled', JSON.stringify(isSoundEnabled));
+    localStorage.setItem('autoQuizSoundEnabled', JSON.stringify(isSoundEnabled));
   }, [isSoundEnabled]);
 
   const getAudioContext = useCallback(() => {

@@ -12,17 +12,17 @@ import {
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { COUNTRIES, type Country } from '@/lib/data';
+import { BRANDS, type Brand } from '@/lib/data';
 import { cn } from '@/lib/utils';
 import { CheckCircle, XCircle, Volume2, VolumeX } from 'lucide-react';
 import { useSounds } from '@/hooks/use-sounds';
 
-type QuizItem = Country & {
-  flagUrl: string;
-  flagHint: string;
+type QuizItem = Brand & {
+  logoUrl: string;
+  logoHint: string;
 };
 
-type QuizStep = 'country' | 'capital';
+type QuizStep = 'brand' | 'origin';
 
 function shuffleArray<T>(array: T[]): T[] {
   return [...array].sort(() => Math.random() - 0.5);
@@ -34,14 +34,14 @@ export default function QuizFlow() {
   const [playerName, setPlayerName] = useState('');
   const [quizData, setQuizData] = useState<QuizItem[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [step, setStep] = useState<QuizStep>('country');
-  const [score, setScore] = useState({ countries: 0, capitals: 0 });
+  const [step, setStep] = useState<QuizStep>('brand');
+  const [score, setScore] = useState({ brands: 0, origins: 0 });
   const [options, setOptions] = useState<string[]>([]);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [isAnswered, setIsAnswered] = useState(false);
 
   useEffect(() => {
-    const name = localStorage.getItem('geoWhizPlayerName');
+    const name = localStorage.getItem('autoQuizPlayerName');
     if (!name) {
       router.push('/');
       return;
@@ -51,25 +51,25 @@ export default function QuizFlow() {
     const allImagePlaceholders = new Map(
       PlaceHolderImages.map((p) => [p.id, p])
     );
-    const combinedData: QuizItem[] = COUNTRIES.map((country) => {
-      const placeholder = allImagePlaceholders.get(country.id);
+    const combinedData: QuizItem[] = BRANDS.map((brand) => {
+      const placeholder = allImagePlaceholders.get(brand.id);
       return {
-        ...country,
-        flagUrl: placeholder?.imageUrl || '',
-        flagHint: placeholder?.imageHint || '',
+        ...brand,
+        logoUrl: placeholder?.imageUrl || '',
+        logoHint: placeholder?.imageHint || '',
       };
-    }).filter((item) => item.flagUrl);
+    }).filter((item) => item.logoUrl);
 
     setQuizData(shuffleArray(combinedData).slice(0, 10)); // Limit to 10 questions for a quicker game
   }, [router]);
 
   const currentQuizItem = useMemo(() => quizData[currentQuestionIndex], [quizData, currentQuestionIndex]);
 
-  const generateOptions = (correctAnswer: string, type: 'country' | 'capital') => {
+  const generateOptions = (correctAnswer: string, type: 'brand' | 'origin') => {
     if (!correctAnswer) return;
-    const allAnswers = type === 'country'
-      ? COUNTRIES.map(c => c.name)
-      : COUNTRIES.map(c => c.capital).filter(Boolean);
+    const allAnswers = type === 'brand'
+      ? BRANDS.map(c => c.name)
+      : BRANDS.map(c => c.origin).filter(Boolean);
       
     const wrongAnswers = shuffleArray(allAnswers.filter(a => a !== correctAnswer)).slice(0, 3);
     setOptions(shuffleArray([correctAnswer, ...wrongAnswers]));
@@ -77,10 +77,10 @@ export default function QuizFlow() {
 
   useEffect(() => {
     if (quizData.length > 0 && currentQuizItem) {
-      if (step === 'country') {
-        generateOptions(currentQuizItem.name, 'country');
+      if (step === 'brand') {
+        generateOptions(currentQuizItem.name, 'brand');
       } else {
-        generateOptions(currentQuizItem.capital, 'capital');
+        generateOptions(currentQuizItem.origin, 'origin');
       }
     }
   }, [currentQuizItem, step, quizData.length]);
@@ -93,19 +93,19 @@ export default function QuizFlow() {
   const finishQuiz = () => {
     const results = {
       name: playerName,
-      countries: score.countries,
-      capitals: score.capitals,
+      brands: score.brands,
+      origins: score.origins,
       total: quizData.length,
       date: new Date().toISOString(),
     };
     
-    const pastResults = JSON.parse(localStorage.getItem('geoWhizResults') || '[]');
+    const pastResults = JSON.parse(localStorage.getItem('autoQuizResults') || '[]');
     pastResults.unshift(results);
-    localStorage.setItem('geoWhizResults', JSON.stringify(pastResults));
+    localStorage.setItem('autoQuizResults', JSON.stringify(pastResults));
 
     const queryParams = new URLSearchParams({
-      countries: String(score.countries),
-      capitals: String(score.capitals),
+      brands: String(score.brands),
+      origins: String(score.origins),
       total: String(quizData.length)
     }).toString();
 
@@ -119,12 +119,12 @@ export default function QuizFlow() {
     setIsAnswered(false);
     setSelectedOption(null);
 
-    if (step === 'country') {
-      setStep('capital');
+    if (step === 'brand') {
+      setStep('origin');
     } else {
       if (currentQuestionIndex < quizData.length - 1) {
         setCurrentQuestionIndex(currentQuestionIndex + 1);
-        setStep('country');
+        setStep('brand');
       } else {
         finishQuiz();
       }
@@ -137,15 +137,15 @@ export default function QuizFlow() {
     setIsAnswered(true);
     setSelectedOption(option);
     
-    const correctAnswer = step === 'country' ? currentQuizItem.name : currentQuizItem.capital;
+    const correctAnswer = step === 'brand' ? currentQuizItem.name : currentQuizItem.origin;
     
     // Проигрываем звук в зависимости от правильности ответа
     if (option === correctAnswer) {
       playSound('correct');
-      if (step === 'country') {
-        setScore(s => ({ ...s, countries: s.countries + 1 }));
+      if (step === 'brand') {
+        setScore(s => ({ ...s, brands: s.brands + 1 }));
       } else {
-        setScore(s => ({ ...s, capitals: s.capitals + 1 }));
+        setScore(s => ({ ...s, origins: s.origins + 1 }));
       }
     } else {
       playSound('wrong');
@@ -156,7 +156,7 @@ export default function QuizFlow() {
     }, 1500);
   };
   
-  const correctAnswer = step === 'country' ? currentQuizItem.name : currentQuizItem.capital;
+  const correctAnswer = step === 'brand' ? currentQuizItem.name : currentQuizItem.origin;
 
   const getButtonClass = (option: string) => {
     if (!isAnswered) return '';
@@ -170,7 +170,7 @@ export default function QuizFlow() {
       <CardHeader>
         <div className="flex items-center justify-between mb-4">
           <CardTitle className="font-headline text-2xl">
-            {step === 'country' ? 'Чей это флаг?' : `Столица страны: ${currentQuizItem.name}`}
+            {step === 'brand' ? 'Чей это логотип?' : `Страна бренда: ${currentQuizItem.name}`}
           </CardTitle>
           <div className="text-lg font-bold">
             {currentQuestionIndex + 1} / {quizData.length}
@@ -179,12 +179,12 @@ export default function QuizFlow() {
         <Progress value={((currentQuestionIndex + 1) / quizData.length) * 100} />
       </CardHeader>
       <CardContent className="flex flex-col items-center justify-center space-y-8">
-        {step === 'country' && (
+        {step === 'brand' && (
           <div className="relative w-full max-w-xs h-48 rounded-lg overflow-hidden shadow-lg">
             <Image
-              src={currentQuizItem.flagUrl}
-              alt={`Флаг ${currentQuizItem.name}`}
-              data-ai-hint={currentQuizItem.flagHint}
+              src={currentQuizItem.logoUrl}
+              alt={`Логотип ${currentQuizItem.name}`}
+              data-ai-hint={currentQuizItem.logoHint}
               fill
               style={{ objectFit: 'cover' }}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -210,7 +210,7 @@ export default function QuizFlow() {
         
         <div className="flex items-center justify-between w-full">
           <div className="text-sm text-muted-foreground">
-            Счет: Страны {score.countries}, Столицы {score.capitals}
+            Счет: Бренды {score.brands}, Страны {score.origins}
           </div>
           <Button 
             variant="ghost" 

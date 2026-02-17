@@ -1,5 +1,14 @@
-# Firebase Studio
+# AutoQuiz
 
-This is a NextJS starter in Firebase Studio.
+Викторина по маркам автомобилей и странам их происхождения.
 
-To get started, take a look at src/app/page.tsx.
+## Запуск
+
+```bash
+npm install
+npm run dev
+```
+
+## Деплой
+
+Проект настроен для работы с `basePath` `/autoquiz` (см. `next.config.ts`).
