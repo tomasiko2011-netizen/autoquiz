@@ -3,211 +3,211 @@
     {
       "id": "toyota",
       "description": "Logo of Toyota",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F9%2F9d%2FToyota_logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Toyota_logo.svg",
       "imageHint": "car brand logo Toyota"
     },
     {
       "id": "honda",
       "description": "Logo of Honda",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F7%2F7b%2FHonda-logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Honda-logo.svg",
       "imageHint": "car brand logo Honda"
     },
     {
       "id": "nissan",
       "description": "Logo of Nissan",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F8%2F8c%2FNissan_logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Nissan_logo.svg",
       "imageHint": "car brand logo Nissan"
     },
     {
       "id": "mazda",
       "description": "Logo of Mazda",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F1%2F18%2FMazda_logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Mazda_logo.svg",
       "imageHint": "car brand logo Mazda"
     },
     {
       "id": "subaru",
       "description": "Logo of Subaru",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F0%2F0d%2FSubaru_Logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Subaru_Logo.svg",
       "imageHint": "car brand logo Subaru"
     },
     {
       "id": "mitsubishi",
       "description": "Logo of Mitsubishi",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F3%2F3f%2FMitsubishi_logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Mitsubishi_logo.svg",
       "imageHint": "car brand logo Mitsubishi"
     },
     {
       "id": "suzuki",
       "description": "Logo of Suzuki",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F1%2F12%2FSuzuki_logo_2022.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Suzuki_logo_2022.svg",
       "imageHint": "car brand logo Suzuki"
     },
     {
       "id": "lexus",
       "description": "Logo of Lexus",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6f%2FLexus_Logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Lexus_Logo.svg",
       "imageHint": "car brand logo Lexus"
     },
     {
       "id": "bmw",
       "description": "Logo of BMW",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F4%2F44%2FBMW.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg",
       "imageHint": "car brand logo BMW"
     },
     {
       "id": "mercedes",
       "description": "Logo of Mercedes-Benz",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F9%2F90%2FMercedes-Logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Mercedes-Logo.svg",
       "imageHint": "car brand logo Mercedes-Benz"
     },
     {
       "id": "audi",
       "description": "Logo of Audi",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F1%2F16%2FAudi_logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Audi_logo.svg",
       "imageHint": "car brand logo Audi"
     },
     {
       "id": "volkswagen",
       "description": "Logo of Volkswagen",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6d%2FVolkswagen_logo_2019.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Volkswagen_logo_2019.svg",
       "imageHint": "car brand logo Volkswagen"
     },
     {
       "id": "porsche",
       "description": "Logo of Porsche",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F3%2F31%2FPorsche_logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Porsche_logo.svg",
       "imageHint": "car brand logo Porsche"
     },
     {
       "id": "opel",
       "description": "Logo of Opel",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F2%2F2e%2FOpel-Logo_2017.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Opel-Logo_2017.svg",
       "imageHint": "car brand logo Opel"
     },
     {
       "id": "ford",
       "description": "Logo of Ford",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F3%2F3e%2FFord_logo_flat.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg",
       "imageHint": "car brand logo Ford"
     },
     {
       "id": "chevrolet",
       "description": "Logo of Chevrolet",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F1%2F1e%2FChevrolet_logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Chevrolet_logo.svg",
       "imageHint": "car brand logo Chevrolet"
     },
     {
       "id": "tesla",
       "description": "Logo of Tesla",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fb%2Fbd%2FTesla_Motors.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg",
       "imageHint": "car brand logo Tesla"
     },
     {
       "id": "jeep",
       "description": "Logo of Jeep",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F9%2F9a%2FJeep_logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Jeep_logo.svg",
       "imageHint": "car brand logo Jeep"
     },
     {
       "id": "dodge",
       "description": "Logo of Dodge",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F1%2F11%2FDodge_logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Dodge_logo.svg",
       "imageHint": "car brand logo Dodge"
     },
     {
       "id": "cadillac",
       "description": "Logo of Cadillac",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F8%2F8f%2FCadillac_logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Cadillac_logo.svg",
       "imageHint": "car brand logo Cadillac"
     },
     {
       "id": "hyundai",
       "description": "Logo of Hyundai",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F2%2F2d%2FHyundai_logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Hyundai_logo.svg",
       "imageHint": "car brand logo Hyundai"
     },
     {
       "id": "kia",
       "description": "Logo of Kia",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F0%2F0f%2FKia_logo2.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Kia_logo2.svg",
       "imageHint": "car brand logo Kia"
     },
     {
       "id": "volvo",
       "description": "Logo of Volvo",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F9%2F9e%2FVolvo-Spread-Wordmark-Black.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Volvo-Spread-Wordmark-Black.svg",
       "imageHint": "car brand logo Volvo"
     },
     {
       "id": "peugeot",
       "description": "Logo of Peugeot",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F7%2F7b%2FPeugeot_2021_Logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Peugeot_2021_Logo.svg",
       "imageHint": "car brand logo Peugeot"
     },
     {
       "id": "renault",
       "description": "Logo of Renault",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6c%2FRenault_2021.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Renault_2021.svg",
       "imageHint": "car brand logo Renault"
     },
     {
       "id": "citroen",
       "description": "Logo of Citroen",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F3%2F33%2FCitroen_2022.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Citroen_2022.svg",
       "imageHint": "car brand logo Citroen"
     },
     {
       "id": "fiat",
       "description": "Logo of Fiat",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F2%2F2d%2FFiat_Logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Fiat_Logo.svg",
       "imageHint": "car brand logo Fiat"
     },
     {
       "id": "ferrari",
       "description": "Logo of Ferrari",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fd%2Fd1%2FFerrari-Logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Ferrari-Logo.svg",
       "imageHint": "car brand logo Ferrari"
     },
     {
       "id": "lamborghini",
       "description": "Logo of Lamborghini",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2F0%2F0f%2FLamborghini_Logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0f/Lamborghini_Logo.svg",
       "imageHint": "car brand logo Lamborghini"
     },
     {
       "id": "alfaromeo",
       "description": "Logo of Alfa Romeo",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F3%2F37%2FAlfa_Romeo_2020_logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Alfa_Romeo_2020_logo.svg",
       "imageHint": "car brand logo Alfa Romeo"
     },
     {
       "id": "skoda",
       "description": "Logo of Skoda",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F5%2F5e%2FSkoda_auto_logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Skoda_auto_logo.svg",
       "imageHint": "car brand logo Skoda"
     },
     {
       "id": "seat",
       "description": "Logo of SEAT",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F5%2F5c%2FSEAT_logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/SEAT_logo.svg",
       "imageHint": "car brand logo SEAT"
     },
     {
       "id": "jaguar",
       "description": "Logo of Jaguar",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F3%2F3b%2FJaguar_2021_logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Jaguar_2021_logo.svg",
       "imageHint": "car brand logo Jaguar"
     },
     {
       "id": "landrover",
       "description": "Logo of Land Rover",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F7%2F71%2FLand_Rover_logo_black.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Land_Rover_logo_black.svg",
       "imageHint": "car brand logo Land Rover"
     },
     {
       "id": "mini",
       "description": "Logo of MINI",
-      "imageUrl": "/autoquiz/api/logo?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F7%2F7f%2FMini_logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Mini_logo.svg",
       "imageHint": "car brand logo MINI"
     }
   ]
