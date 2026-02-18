@@ -184,6 +184,7 @@ export default function QuizFlow() {
             <img
               src={currentQuizItem.logoUrl}
               alt={`Логотип ${currentQuizItem.name}`}
+              referrerPolicy="no-referrer"
               style={{
                 width: '100%',
                 height: '100%',
