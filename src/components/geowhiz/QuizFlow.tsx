@@ -40,6 +40,9 @@ export default function QuizFlow() {
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [isAnswered, setIsAnswered] = useState(false);
 
+  const brandOptions = useMemo(() => BRANDS.map((b) => b.name), []);
+  const originOptions = useMemo(() => Array.from(new Set(BRANDS.map((b) => b.origin))), []);
+
   useEffect(() => {
     const name = localStorage.getItem('autoQuizPlayerName');
     if (!name) {
@@ -67,12 +70,8 @@ export default function QuizFlow() {
 
   const generateOptions = (correctAnswer: string, type: 'brand' | 'origin') => {
     if (!correctAnswer) return;
-    const allAnswers = type === 'brand'
-      ? BRANDS.map(c => c.name)
-      : BRANDS.map(c => c.origin);
-
-    const uniqueAnswers = Array.from(new Set(allAnswers.filter(Boolean)));
-    const wrongAnswers = shuffleArray(uniqueAnswers.filter(a => a !== correctAnswer)).slice(0, 3);
+    const allAnswers = type === 'brand' ? brandOptions : originOptions;
+    const wrongAnswers = shuffleArray(allAnswers.filter(a => a && a !== correctAnswer)).slice(0, 3);
     setOptions(shuffleArray([correctAnswer, ...wrongAnswers]));
   };
 
@@ -188,6 +187,7 @@ export default function QuizFlow() {
               alt={`Логотип ${currentQuizItem.name}`}
               data-ai-hint={currentQuizItem.logoHint}
               fill
+              unoptimized
               style={{ objectFit: 'cover' }}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               priority
