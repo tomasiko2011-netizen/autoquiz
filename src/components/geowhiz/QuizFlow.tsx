@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
-import Image from 'next/image';
 import {
   Card,
   CardContent,
@@ -182,15 +181,14 @@ export default function QuizFlow() {
       <CardContent className="flex flex-col items-center justify-center space-y-8">
         {step === 'brand' && (
           <div className="relative w-full max-w-xs h-48 rounded-lg overflow-hidden shadow-lg">
-            <Image
+            <img
               src={currentQuizItem.logoUrl}
               alt={`Логотип ${currentQuizItem.name}`}
-              data-ai-hint={currentQuizItem.logoHint}
-              fill
-              unoptimized
-              style={{ objectFit: 'cover' }}
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              priority
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+              }}
             />
           </div>
         )}
