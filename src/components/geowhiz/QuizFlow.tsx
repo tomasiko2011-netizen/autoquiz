@@ -69,14 +69,16 @@ export default function QuizFlow() {
     if (!correctAnswer) return;
     const allAnswers = type === 'brand'
       ? BRANDS.map(c => c.name)
-      : BRANDS.map(c => c.origin).filter(Boolean);
-      
-    const wrongAnswers = shuffleArray(allAnswers.filter(a => a !== correctAnswer)).slice(0, 3);
+      : BRANDS.map(c => c.origin);
+
+    const uniqueAnswers = Array.from(new Set(allAnswers.filter(Boolean)));
+    const wrongAnswers = shuffleArray(uniqueAnswers.filter(a => a !== correctAnswer)).slice(0, 3);
     setOptions(shuffleArray([correctAnswer, ...wrongAnswers]));
   };
 
   useEffect(() => {
     if (quizData.length > 0 && currentQuizItem) {
+      setOptions([]);
       if (step === 'brand') {
         generateOptions(currentQuizItem.name, 'brand');
       } else {

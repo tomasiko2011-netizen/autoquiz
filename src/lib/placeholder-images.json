@@ -3,211 +3,211 @@
     {
       "id": "toyota",
       "description": "Logo of Toyota",
-      "imageUrl": "/logos/toyota.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Toyota_logo.svg",
       "imageHint": "car brand logo Toyota"
     },
     {
       "id": "honda",
       "description": "Logo of Honda",
-      "imageUrl": "/logos/honda.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Honda-logo.svg",
       "imageHint": "car brand logo Honda"
     },
     {
       "id": "nissan",
       "description": "Logo of Nissan",
-      "imageUrl": "/logos/nissan.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Nissan_logo.svg",
       "imageHint": "car brand logo Nissan"
     },
     {
       "id": "mazda",
       "description": "Logo of Mazda",
-      "imageUrl": "/logos/mazda.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Mazda_logo.svg",
       "imageHint": "car brand logo Mazda"
     },
     {
       "id": "subaru",
       "description": "Logo of Subaru",
-      "imageUrl": "/logos/subaru.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Subaru_Logo.svg",
       "imageHint": "car brand logo Subaru"
     },
     {
       "id": "mitsubishi",
       "description": "Logo of Mitsubishi",
-      "imageUrl": "/logos/mitsubishi.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Mitsubishi_logo.svg",
       "imageHint": "car brand logo Mitsubishi"
     },
     {
       "id": "suzuki",
       "description": "Logo of Suzuki",
-      "imageUrl": "/logos/suzuki.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Suzuki_logo_2022.svg",
       "imageHint": "car brand logo Suzuki"
     },
     {
       "id": "lexus",
       "description": "Logo of Lexus",
-      "imageUrl": "/logos/lexus.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Lexus_Logo.svg",
       "imageHint": "car brand logo Lexus"
     },
     {
       "id": "bmw",
       "description": "Logo of BMW",
-      "imageUrl": "/logos/bmw.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg",
       "imageHint": "car brand logo BMW"
     },
     {
       "id": "mercedes",
       "description": "Logo of Mercedes-Benz",
-      "imageUrl": "/logos/mercedes.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Mercedes-Logo.svg",
       "imageHint": "car brand logo Mercedes-Benz"
     },
     {
       "id": "audi",
       "description": "Logo of Audi",
-      "imageUrl": "/logos/audi.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Audi_logo.svg",
       "imageHint": "car brand logo Audi"
     },
     {
       "id": "volkswagen",
       "description": "Logo of Volkswagen",
-      "imageUrl": "/logos/volkswagen.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Volkswagen_logo_2019.svg",
       "imageHint": "car brand logo Volkswagen"
     },
     {
       "id": "porsche",
       "description": "Logo of Porsche",
-      "imageUrl": "/logos/porsche.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Porsche_logo.svg",
       "imageHint": "car brand logo Porsche"
     },
     {
       "id": "opel",
       "description": "Logo of Opel",
-      "imageUrl": "/logos/opel.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Opel-Logo_2017.svg",
       "imageHint": "car brand logo Opel"
     },
     {
       "id": "ford",
       "description": "Logo of Ford",
-      "imageUrl": "/logos/ford.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg",
       "imageHint": "car brand logo Ford"
     },
     {
       "id": "chevrolet",
       "description": "Logo of Chevrolet",
-      "imageUrl": "/logos/chevrolet.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Chevrolet_logo.svg",
       "imageHint": "car brand logo Chevrolet"
     },
     {
       "id": "tesla",
       "description": "Logo of Tesla",
-      "imageUrl": "/logos/tesla.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg",
       "imageHint": "car brand logo Tesla"
     },
     {
       "id": "jeep",
       "description": "Logo of Jeep",
-      "imageUrl": "/logos/jeep.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Jeep_logo.svg",
       "imageHint": "car brand logo Jeep"
     },
     {
       "id": "dodge",
       "description": "Logo of Dodge",
-      "imageUrl": "/logos/dodge.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Dodge_logo.svg",
       "imageHint": "car brand logo Dodge"
     },
     {
       "id": "cadillac",
       "description": "Logo of Cadillac",
-      "imageUrl": "/logos/cadillac.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Cadillac_logo.svg",
       "imageHint": "car brand logo Cadillac"
     },
     {
       "id": "hyundai",
       "description": "Logo of Hyundai",
-      "imageUrl": "/logos/hyundai.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Hyundai_logo.svg",
       "imageHint": "car brand logo Hyundai"
     },
     {
       "id": "kia",
       "description": "Logo of Kia",
-      "imageUrl": "/logos/kia.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Kia_logo2.svg",
       "imageHint": "car brand logo Kia"
     },
     {
       "id": "volvo",
       "description": "Logo of Volvo",
-      "imageUrl": "/logos/volvo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Volvo-Spread-Wordmark-Black.svg",
       "imageHint": "car brand logo Volvo"
     },
     {
       "id": "peugeot",
       "description": "Logo of Peugeot",
-      "imageUrl": "/logos/peugeot.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Peugeot_2021_Logo.svg",
       "imageHint": "car brand logo Peugeot"
     },
     {
       "id": "renault",
       "description": "Logo of Renault",
-      "imageUrl": "/logos/renault.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Renault_2021.svg",
       "imageHint": "car brand logo Renault"
     },
     {
       "id": "citroen",
       "description": "Logo of Citroen",
-      "imageUrl": "/logos/citroen.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Citroen_2022.svg",
       "imageHint": "car brand logo Citroen"
     },
     {
       "id": "fiat",
       "description": "Logo of Fiat",
-      "imageUrl": "/logos/fiat.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Fiat_Logo.svg",
       "imageHint": "car brand logo Fiat"
     },
     {
       "id": "ferrari",
       "description": "Logo of Ferrari",
-      "imageUrl": "/logos/ferrari.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Ferrari-Logo.svg",
       "imageHint": "car brand logo Ferrari"
     },
     {
       "id": "lamborghini",
       "description": "Logo of Lamborghini",
-      "imageUrl": "/logos/lamborghini.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0f/Lamborghini_Logo.svg",
       "imageHint": "car brand logo Lamborghini"
     },
     {
       "id": "alfaromeo",
       "description": "Logo of Alfa Romeo",
-      "imageUrl": "/logos/alfaromeo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Alfa_Romeo_2020_logo.svg",
       "imageHint": "car brand logo Alfa Romeo"
     },
     {
       "id": "skoda",
       "description": "Logo of Skoda",
-      "imageUrl": "/logos/skoda.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Skoda_auto_logo.svg",
       "imageHint": "car brand logo Skoda"
     },
     {
       "id": "seat",
       "description": "Logo of SEAT",
-      "imageUrl": "/logos/seat.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/SEAT_logo.svg",
       "imageHint": "car brand logo SEAT"
     },
     {
       "id": "jaguar",
       "description": "Logo of Jaguar",
-      "imageUrl": "/logos/jaguar.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Jaguar_2021_logo.svg",
       "imageHint": "car brand logo Jaguar"
     },
     {
       "id": "landrover",
       "description": "Logo of Land Rover",
-      "imageUrl": "/logos/landrover.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Land_Rover_logo_black.svg",
       "imageHint": "car brand logo Land Rover"
     },
     {
       "id": "mini",
       "description": "Logo of MINI",
-      "imageUrl": "/logos/mini.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Mini_logo.svg",
       "imageHint": "car brand logo MINI"
     }
   ]
